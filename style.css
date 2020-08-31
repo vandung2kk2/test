@@ -117,6 +117,5 @@ li:not(#current-lang) a:hover{
 }
 #copyright{
 	margin-top:20px;
-	font-size:36px;
-	color:#f33
+	font-size:0.7em;
 }
