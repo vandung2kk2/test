@@ -118,4 +118,5 @@ li:not(#current-lang) a:hover{
 #copyright{
 	margin-top:20px;
 	font-size:36px;
+	color:#f33
 }
