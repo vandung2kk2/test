@@ -17,14 +17,14 @@ body{
 /*--HEADER--*/
 #nav-bar{
 	height:135px;
-	background:#3c5a99 url(https://svgshare.com/i/P99.svg) center no-repeat;
+	background:#3c5a99 url(./sources/P99.svg) center no-repeat;
 }
 #logo{
 	margin-top:90px;
 	width:155px;
 	height:155px;
 	border-radius:36px;
-	background:url("https://svgshare.com/i/PC5.svg");
+	background:url("./sources/PC5.svg");
 	background-size:155px 155px;
 }
 #slogan{
@@ -70,10 +70,10 @@ form{
 	display:none;
 }
 .show-pass{
-	background:url("https://svgshare.com/i/PCN.svg") center;
+	background:url("./sources/show.svg") center;
 }
 .hide-pass{
-	background:url("https://svgshare.com/i/PDi.svg") center;
+	background:url("./sources/hide.svg") center;
 }
 #login{
 	padding:28px 0 29px;
