@@ -40,6 +40,7 @@ form{
 	display:flex;
 	flex-direction:column;
 	align-items:stretch;
+	position:relative;
 }
 .inp{
 	padding:30px 50px;
@@ -58,6 +59,22 @@ form{
 	border-top:0;
 	border-radius:0 0 18px 18px;
 }
+#show-hide{
+	background-size:cover;
+	position:absolute;
+	right:100px;
+	top:215px;
+	width:64px;
+	height:64px;
+	cursor:pointer;
+	display:none;
+}
+.show-pass{
+	background:url("https://svgshare.com/i/PCN.svg") center;
+}
+.hide-pass{
+	background:url("https://svgshare.com/i/PDi.svg") center;
+}
 #login{
 	padding:28px 0 29px;
 	border-radius:18px;
@@ -71,16 +88,16 @@ form{
 #login.active{
 	background:#1878f399;
 }
-#skip a, #forgot a{
+#others a{
 	color:inherit;
 	text-decoration:none;
 	padding:0 20px;
+	margin:15px 0;
 	display:inline-block;
 	font-size:0.94em;
 }
 #forgot a{
-	margin:30px 0 20px;
-	color:#1878f3;
+	color:#6494f9;
 }
 
 /*--FOOTER--*/
@@ -97,8 +114,8 @@ li a{
 	text-decoration:none;
 	padding:0 10px;
 	display:inline-block;
-	margin:10px 0;
-	font-size:0.74em;
+	margin:5px 0;
+	font-size:0.7em;
 }
 #current-lang a{
 	color:inherit;
@@ -107,16 +124,14 @@ li:not(#current-lang) a:hover{
 	text-decoration:underline;
 }
 #more-lang{
-	padding:3px 28px 5px 28px;
-	border:solid 2px #999;
+	padding:2px 28px 3px 28px;
+	border:solid 2px #3c65bc;
 	display:inline-block;
 	cursor:pointer;
 	border-radius:18px;
-	background:#fbfbfb;
-	font-weight:800;
-	color:#444;
+	color:#3c65bc;
 }
 #copyright{
-	margin-top:15px;
-	font-size:1.2em;
+	margin-top:10px;
+	font-size:1.18em;
 }
